@@ -1,0 +1,16 @@
+*{
+    background-color: #1c1057;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(243, 238, 232);
+    padding: 10px;
+    margin: 1px;
+}
+.item{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}

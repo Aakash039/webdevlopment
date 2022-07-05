@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\oops"
+		},
+		{
+			"path": "E:\\__Project_Library management\\Library management"
+		},
+		{
+			"path": "E:\\Aakash"
+		},
+		{
+			"path": "E:\\timepass\\timepass"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DSA"
+	}
+}

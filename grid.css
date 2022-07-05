@@ -1,0 +1,36 @@
+.container {
+  background-color: red;
+  /*height: 700px;
+  width: 900px;*/
+  display: grid;
+ /* grid-template-rows: 133px 133px 133px; /*here we are specifying that we wnat three row and ech of size of 133px */
+ /* grid-template-columns: 133px 133px 133px;/*same goes for column also */
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 50px 1fr 50px;
+ /*here above we are using repeat function acess the full grid space here we are telling that we need 3 row totally in one grid and same goes for column 
+ 1fr means one fraction of the whole grid we can write the above code like grid-template-columns: 1fr 1fr 1fr; same for column */
+row-gap: 12px;
+column-gap: 12px;
+
+}
+.item {
+  background-color: aqua;
+  /*height: 122px;
+  width: 122px;*/
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /*we can wrtite the above code like 
+    grid-column: 1 /span 5; */
+    background-color: blueviolet;
+    color: yellow;
+    font-weight: bolder;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: blueviolet;
+    color: yellow;
+    font-weight: bolder;
+}
